@@ -1,0 +1,47 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+.venv/git add .gitignore
+git commit -m "Remove .venv and ignore virtual environment"
+git push
+
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# =========================
+# IDE / Editor junk
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Build / cache
+# =========================
+build/
+dist/
+*.egg-info/
